@@ -14,31 +14,42 @@ Build an HR policy chatbot powered by LlamaIndex that augments works on Ollama a
 1. Install Ollama from here: https://github.com/ollama/ollama
 2. Pull the phi2 model. You can pull a bigger model in case you have GPU and memory.
 
+```
     ollama pull phi
+```
 
 In case you download a bigger model make the code change in the streamlit_app.py
 
+```
     llm = Ollama(model="phi", request_timeout=120)
+```
 
 3. Run the Ollama app.
 
+```
     ollama serve
+```
 
 4. Clone the app.
 
+```
     git clone https://github.com/infinite-Joy/webinars.git
     cd creating_gpt_chatbots_for_enterprise_usecases
+```
 
 5. Install all the dependencies
 
+```
     pip install poetry
     poetry install
     poetry shell
+```
 
 6. Now run the app
 
+```
     streamlit run streamlit_app.py
-
+```
 
 ## Try out the app
 
