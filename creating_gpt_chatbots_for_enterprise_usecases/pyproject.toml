@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "creating-gpt-chatbots-for-enterprise-usecases"
+version = "0.1.0"
+description = "chatbot code for the webinar"
+authors = ["Joydeep Bhattacharjee"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.12"
+streamlit = "^1.31.1"
+llama-index = "^0.10.9"
+llama-index-embeddings-huggingface = "^0.1.1"
+llama-index-llms-ollama = "^0.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
