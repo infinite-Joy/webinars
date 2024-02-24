@@ -5,7 +5,6 @@ from llama_index.core import (
     SimpleDirectoryReader,
     StorageContext,
     load_index_from_storage,
-    ServiceContext,
 )
 from llama_index.core.embeddings import resolve_embed_model
 from llama_index.core.callbacks import CallbackManager
@@ -25,21 +24,12 @@ if "messages" not in st.session_state.keys(): # Initialize the chat messages his
 @st.cache_resource(show_spinner=False)
 def load_data():
     with st.spinner(text="Loading and indexing policy documents - hang tight! This should take 1-2 minutes."):
-        # check if storage already exists
-        PERSIST_DIR = "./storage"
         llm = Ollama(model="phi", request_timeout=120)
-        if not os.path.exists(PERSIST_DIR):
-            reader = SimpleDirectoryReader(input_dir="./data", recursive=True)
-            docs = reader.load_data()
-            embed_model = resolve_embed_model("local:BAAI/bge-small-en-v1.5")
-            callback_manager = CallbackManager()
-            index = VectorStoreIndex.from_documents(docs, embed_model=embed_model, callback_manager=callback_manager)
-            # store it for later
-            index.storage_context.persist(persist_dir=PERSIST_DIR)
-            return index, llm
-        else:
-            storage_context = StorageContext.from_defaults(persist_dir=PERSIST_DIR)
-            index = load_index_from_storage(storage_context)
+        embed_model = resolve_embed_model("local:BAAI/bge-small-en-v1.5")
+        callback_manager = CallbackManager()
+        reader = SimpleDirectoryReader(input_dir="./data", recursive=True)
+        docs = reader.load_data()
+        index = VectorStoreIndex.from_documents(docs, embed_model=embed_model, callback_manager=callback_manager)
         return index, llm
 
 
@@ -62,6 +52,12 @@ for message in st.session_state.messages: # Display the prior chat messages
 # If last message is not from assistant, generate a new response
 if st.session_state.messages[-1]["role"] != "assistant":
     with st.chat_message("assistant"):
+        augmented_prompt = f"""
+            Answer the HR policy query by the user.
+            Only give answers based on user queries and context. Do not hallucinate.
+            Do not start with as per context.
+            User Query: {prompt}
+            Answer:"""
         response = st.session_state.chat_engine.query(prompt)
         with st.empty():
             output = ''
