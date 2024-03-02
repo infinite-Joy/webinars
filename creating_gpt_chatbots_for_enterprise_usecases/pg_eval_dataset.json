@@ -1,0 +1,54 @@
+{
+    "queries": {
+        "7835d5fd-b824-428c-b334-a2d0718fd06a": "What are the consequences of reproducing or altering the Human Resource Policy Manual of Karvy Financial Services Ltd without requisite permissions?",
+        "37d50bf5-a99b-43c1-a776-eedb727a0f36": "How does the proprietary nature of the document impact its confidentiality and handling within the organization?",
+        "d242ff17-bd82-48b5-bc14-5c3a562830dc": "In the Human Resource Policy Manual of Karvy Financial Services Ltd, what are some basic interviewing guidelines that interviewers are expected to follow? Provide at least three guidelines mentioned in the document.",
+        "8f6d86de-43eb-4a73-ba9f-3d817c8144f0": "According to the document, what is the preferred method of conducting interviews for outstation candidates, and what reimbursement policy does the company have in place for candidates traveling for interviews?",
+        "63cec20f-f331-4fd1-b9a3-a69c1a12a19d": "What are the steps involved in the pre-employment screening process at KFSL, and who is responsible for approving the recommended candidate's compensation and grade?",
+        "5ded3b37-d1ba-43d2-97e7-c4d925f0ced0": "In the event that a candidate needs to travel for an interview at KFSL, what factors determine their eligibility for travel reimbursement, and who must approve the travel beforehand?",
+        "5e4843a8-5107-4e4e-b6e1-51b4f8407531": "What is the significance of the Human Resource Policy Manual in the operations of Karvy Financial Services Ltd, as indicated by the proprietary information disclaimer?",
+        "610ec70f-16e7-4f07-84e0-baf395a28b37": "In the context of the document, what is the role of the CEO and Business Head at Karvy Financial Services Ltd, as outlined in the signature section of the manual?",
+        "aca10a9b-3c2e-44a7-a9e9-ccc9d051e285": "What is the process for employees to avail their mandatory leave, and why is it recommended to submit a tentative leave schedule at the beginning of the year?",
+        "156e46ce-24d0-4af8-99fe-316f7590c750": "How is sick leave granted in the organization, and what is the approval process for sick leave beyond 3 days at a stretch?"
+    },
+    "corpus": {
+        "de8907be-28b2-4158-a2c9-2f7dc531850c": "Human Resource Policy Manual Version 1.0   Karvy Financial Services Ltd  \n \nThis document is a proprietary information of KFSL  and should not be reproduced or altered without requisite p ermissions.  \n \n       \nConfidential   Page 21 of 28  \n \n \n \n \n \n \n \n \n \n \n \n \n \nAnnexure",
+        "a63bb35e-605f-4c97-8098-5cd5aaea570a": "Human Resource Policy Manual Version 1.0   Karvy Financial Services Ltd  \n \nThis document is a proprietary information of KFSL  and should not be reproduced or altered without requisite p ermissions.  \n \n       \nConfidential   Page 7 of 28 It is the responsibility of the interviewer to brief the candidate on the current role available, a brief \nbackground of the organization, the culture prevalent in the organization the location at which the \nrole will be b ased.  \n \nSome basic interviewing guidelines that are to be followed:  \n\uf0b7 Do not make the candidate wait for more than 15 minutes.  \n\uf0b7 Be punctual and start the interview on time  \n\uf0b7 Be presentable, greet the candidate and ask for his well -being.  \n\uf0b7 Begin by talking about thing s of common interest. Candidates are usually nervous before \nan interview; this will help break the ice. The candidate will display his/her actual potential \nonly when he/she is calm . \n\uf0b7 Ask open ended questions and let the candidate do most of the talking  \n\uf0b7 Do not intimidate the candidate even if his reply to your question is incorrect  \n\uf0b7 Take notes during the interview  \n\uf0b7 Explain the role in terms of expectations and responsibilities.  \n\uf0b7 Close by thanking the candidate for showing interest towards working in our org anization  \n\uf0b7 Give a realistic time frame by which you can inform the candidate the outcome of the \ninterview  \n \nOn account of outstation candidate a VC should be preferred over a telephonic interview.  \n \nPost the interview the line manager and HR will need to fil l-up the interview assessment sheet \u2013\nIAS. This is a mandatory requirement for all interviews. It is suggested to complete this activity \nimmediately as experience of the interview is still fresh.  \n \nvi. Travel reimbursement: Incase a candidate travel from on e city to another on account of an \ninterview the company would reimburse the candidate for travel and incidentals. It is advised to \nprefer such a time for interview that the candidate can travel back the same day to his \ndestination. However if this is not possible due to any reason the candidate will be reimbursed for \nhis/her accommodation too.",
+        "15c390df-8d9b-429c-932b-30adcfc6c661": "Post the interview the line manager and HR will need to fil l-up the interview assessment sheet \u2013\nIAS. This is a mandatory requirement for all interviews. It is suggested to complete this activity \nimmediately as experience of the interview is still fresh.  \n \nvi. Travel reimbursement: Incase a candidate travel from on e city to another on account of an \ninterview the company would reimburse the candidate for travel and incidentals. It is advised to \nprefer such a time for interview that the candidate can travel back the same day to his \ndestination. However if this is not possible due to any reason the candidate will be reimbursed for \nhis/her accommodation too. The eligibility of travel , boarding and lodging will be in accordance of \nthe travel policy applicable as per the grade in which the incumbent is proposed to be hired . \nHowever the onus is on the line managers to restrict travel for interview to minimal. The travel \nneeds to be pre -approved by th e CEO  & KFSL HR.  \n \nvii. Pre -employment Screening:  Once the line manager and HR agree upon the candidate\u2019s \nsuitability for select ion KFSL HR  would take up the following pre -employment checks.  \n \n\uf0b7 De-dupe with internal customer database (to check for any default)  \n\uf0b7 De-dupe with internal negative database (to check for any past history of being \ninterviewed by the company)  \n \nOnce the results  of the above checks are satisfactory KFSL HR will prepare a comparison sheet. \nAfter recommendation from the line manager and the interviewers this sheet will be forwarded to \nthe CEO  for approval.  Post approval of this sheet the offered compensation and gr ade will be \ncommunicated to the candidate.  \n \nBefore the offer letter is released, HR should be in possession of the following documents:  \n\uf0b7 Resume of the candidate  \n\uf0b7 Interview assessment sheet filled by Line manager and HR  \n\uf0b7 Clearance from the pre -employment check s \n\uf0b7 Photo ID proof  \n\uf0b7 Last 2 months salary slip  \n\uf0b7 Copy of the last revision letter / appointment letter i ncase no revision has been done",
+        "ea6dec4c-416d-46fc-8c91-8f0afd4511e4": "Human Resource Policy Manual Version 1.0   Karvy Financial Services Ltd  \n \nThis document is a proprietary information of KFSL  and should not be reproduced or altered without requisite p ermissions.  \n \n       \nConfidential   Page 28 of 28 Business Head: \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026  \u2026\u2026\u2026\u2026\u2026..  \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026  \n \nCEO :  \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026  \u2026\u2026\u2026\u2026\u2026..  \u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026  \n   Name          Date    Signature",
+        "e9b46889-e442-4e6e-998e-bc43a405c4df": "The 21 \ndays of privilege leave is inclusive of 7 days of mandatory leave. All employees are required to \navail of mandatory leave (7 days) once in the leave year .  \n \nFor calculation of mandatory leave paid holiday falling within th e leave period will be counted as \npart of the leave.  \nIn order to ensure that all employees avail their mandatory leave during the calendar year, it is \nrecommended that all employees submit a tentative mandatory leave schedule to their \nSupervisors, at the b eginning of the year.  The Supervisors then ensure that employees avail \ntheir leave in a staggered fashion, throughout the year, without bunching up the leave either at \nthe beginning or at the end of the year.  \n \nSick Leave: Sick leaves can be granted at the  discretion of supervisor, KSFL HR and CEO . The \nimmediate supervisor can approve up to 3 days of continuous leave. Any sick leave beyond 3 \ndays at a stretch has to be approved by the CEO . Such leave application will have to be \nsupported by adequate proof.  \n \nMaternity Leave for Female Employees  \nWherever applicable, maternity leave shall be governed by the provisions of Maternity Benefit \nAct, 1961.  \nThis will apply to cases where an employee adopts a child also.  \nNo employee will be entitled to Maternity Leave u nless she has worked in the company for a \nperiod not less than eighty days in the twelve months preceding the date of her expected delivery.  \nAn employee will be entitled to twelve weeks maternity leave with full pay.  \nAll reporting mangers are responsible f or intimating to HR, whenever relevant, the names of \nemployees who have availed maternity leave."
+    },
+    "relevant_docs": {
+        "7835d5fd-b824-428c-b334-a2d0718fd06a": [
+            "de8907be-28b2-4158-a2c9-2f7dc531850c"
+        ],
+        "37d50bf5-a99b-43c1-a776-eedb727a0f36": [
+            "de8907be-28b2-4158-a2c9-2f7dc531850c"
+        ],
+        "d242ff17-bd82-48b5-bc14-5c3a562830dc": [
+            "a63bb35e-605f-4c97-8098-5cd5aaea570a"
+        ],
+        "8f6d86de-43eb-4a73-ba9f-3d817c8144f0": [
+            "a63bb35e-605f-4c97-8098-5cd5aaea570a"
+        ],
+        "63cec20f-f331-4fd1-b9a3-a69c1a12a19d": [
+            "15c390df-8d9b-429c-932b-30adcfc6c661"
+        ],
+        "5ded3b37-d1ba-43d2-97e7-c4d925f0ced0": [
+            "15c390df-8d9b-429c-932b-30adcfc6c661"
+        ],
+        "5e4843a8-5107-4e4e-b6e1-51b4f8407531": [
+            "ea6dec4c-416d-46fc-8c91-8f0afd4511e4"
+        ],
+        "610ec70f-16e7-4f07-84e0-baf395a28b37": [
+            "ea6dec4c-416d-46fc-8c91-8f0afd4511e4"
+        ],
+        "aca10a9b-3c2e-44a7-a9e9-ccc9d051e285": [
+            "e9b46889-e442-4e6e-998e-bc43a405c4df"
+        ],
+        "156e46ce-24d0-4af8-99fe-316f7590c750": [
+            "e9b46889-e442-4e6e-998e-bc43a405c4df"
+        ]
+    },
+    "mode": "text"
+}
